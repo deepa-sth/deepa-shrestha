@@ -1,0 +1,362 @@
+*{
+    text-decoration: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+  font: outline;
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(to bottom, rgba(222, 224, 226, 0), rgb(83, 114, 119)); 
+      width: 100%
+      height: 100px;
+      background-repeat: no-repeat;
+    background-size: cover;
+    }
+    header {
+     
+      padding-top: 5%;
+      height: 40%;
+      
+    }
+  
+    .container{
+      width: 80%;
+      margin: auto;
+      padding: 0%;
+      overflow: hidden;
+     
+    }
+  
+    .right {
+      width: auto;
+      float: right;
+    }
+   section nav ul li{
+     display: inline-block ;
+     float: left;
+     list-style: none;
+   }
+    
+    li:hover {
+      border-bottom: 3px solid rgb(105, 105, 105);
+    }
+  
+    nav{
+      cursor: pointer;
+      align-items: center;
+    }
+    .img-size {
+      box-sizing: border-box;
+      float: center ;
+      font-size: 2vw;
+      max-width:15%;
+      height:40%;
+  }
+    #top-btn{
+      height: 28px;
+      width: 150px;
+      border: none;
+      font-size: 3.5vw;
+      background-image: linear-gradient(to bottom, rgba(94, 106, 117, 0), rgb(58, 80, 129));
+      border-radius: 10px;
+      margin: 0 5px;
+      letter-spacing: 0.3px;
+      color: rgb(9, 10, 10);
+      border-spacing : 10px;
+      cursor: pointer;
+      outline: none;
+    }
+    #list-btn{
+      background-image: white;
+      color:rgb(3, 5, 8);  
+      font-size: 4vw;
+      margin: 0 5px;
+      letter-spacing: 0.3px;
+      float: left;
+      height:35px; 
+      width:135px;
+      border: 1px ;
+      border-radius: 0px;
+      cursor: pointer;
+      align-items: left;
+      
+    }
+    #newstd-btn{
+      color:rgb(3, 5, 8);
+       background: grey; 
+        font-size: 3.5vw;
+      letter-spacing: 0.3px;
+      height:35px; 
+      width:160px;
+      border: 1px ;
+      border-radius: 0px;
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      top : 75px;
+      right: 33px;
+      align-items: left;
+  
+    }
+   
+    button:hover {
+      box-shadow: 1px 2px 5px rgb(87, 87, 87);
+      position: relative;
+      top: -3.5px;
+    }
+    button {
+      height: 60px;
+      width: 200px;
+      border: none;
+      background-image: linear-gradient(to bottom, rgba(94, 106, 117, 0), rgb(58, 80, 129));
+      font-size: 16px;
+      margin: 0 5px;
+      letter-spacing: 0.3px;
+      color: rgb(9, 10, 10);
+      border-radius: 20px;
+      border-spacing : 10px;
+      cursor: pointer;
+      outline: none;
+  
+    }
+    .search-box{
+      position: absolute;
+      top: 2%;
+      right:55% ;
+      transform: translate(-10% -30%);
+      background: rgb(159, 175, 236);
+      height: 13px;
+      border-radius: 40px;
+      padding: 10px;
+  
+    }
+    .search-box:hover > .search-txt{
+      width: 150px;
+      padding: 0 5px;
+  
+    }
+    .search-box:hover > .search-btn{
+     background: white;
+      
+    }
+    .search-txt{
+      border: none;
+      background: none;
+      outline: none;
+      float: left;
+      padding: 0;
+      color: rgb(4, 8, 8);
+      font-size: 15px;
+      transition: 0.4s;
+      line-height: 20px;
+      width: 0px;
+  
+    }
+    .search-btn{
+      color: black;
+      float: right;
+      width: 40px;
+      height: 30px;
+      border-radius: 50%;
+      background: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.4s;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      
+      
+     th{
+      border: 2px solid grey;
+      margin: 40px;
+      padding: 3px 0px 3px 6px;
+      border-radius: 4px;
+      height: auto;
+      width: auto;
+      text-align: center;
+     background-image: linear-gradient(to bottom, rgba(187, 206, 223, 0.911), rgb(145, 177, 238));
+      box-shadow: 0px 2px 6px rgb(105, 102, 133);
+      font-size: 20px;
+      letter-spacing: 0.9px;
+      color: rgb(12, 11, 11);
+      cursor: pointer;
+      outline: none; 
+    }
+  
+    
+    
+   .image{
+     height: 130px;
+    width: 150px;
+   }
+    th:hover {
+      box-shadow: 1px 2px 5px rgb(87, 87, 87);
+      position: relative;
+      top: -3.5px;
+    }
+    
+    tr:hover{
+      background-color: darkslategray
+    }
+    td{
+      margin: 0px;
+      padding: 3px 0px 3px 30px;
+      text-align: center;
+      height: 50px;
+      width: 15px;
+      font-size: 20px;
+      margin: 5px;
+      letter-spacing: 0.9px;
+      color: rgb(12, 10, 10);
+      cursor: pointer;
+      outline: 1px darkblue;
+    }
+  
+    #edit {
+        height: 30px;
+        width: 80px;
+        border: none;
+        background-image: linear-gradient(to bottom, rgba(197, 208, 218, 0.911), rgb(55, 93, 175));
+        font-size: 16px;
+        margin-left: 0%; 
+        margin-right:15%;
+        letter-spacing: 0.3px;
+        color: rgb(9, 10, 10);
+        border-radius: 20px;
+        border-spacing : 10px;
+        cursor: pointer;
+        outline: none;
+    
+      }
+      #edit:hover {
+        box-shadow: 1px 2px 5px rgb(87, 87, 87);
+        position: relative;
+        top: -3.5px;
+      }
+      #check{
+        background-image: radial-gradient(to bottom, rgba(13, 50, 85, 0.911), rgb(224, 227, 235));
+        margin: 0 5px;
+        letter-spacing: 0.3px;
+        color: rgb(9, 10, 10);
+        cursor: pointer;
+        outline: none;
+      }
+      #delete {
+        height: 30px;
+        width: 80px;
+        border: none;
+        background-image: linear-gradient(to bottom, rgba(197, 208, 218, 0.911), rgb(179, 61, 61));
+        font-size: 16px;
+        margin-left:20%; 
+        margin-right:40%;
+        top: 10%;
+       
+        letter-spacing: 0.3px;
+        color: rgb(9, 10, 10);
+        border-radius: 20px;
+        border-spacing : 10px;
+        cursor: pointer;
+        outline: none;
+    
+      }
+      #delete:hover {
+        box-shadow: 1px 2px 5px rgb(87, 87, 87);
+        position: relative;
+        top: -3.5px;
+      }
+      
+      #p {
+        height: 40px;
+        width: 150px;
+        border: 2px solid rgb(136, 156, 236);
+        background-image:linear-gradient(to bottom, rgba(222, 224, 226, 0), rgb(83, 114, 119));
+        font-size: 14px;
+        margin-right:50%; 
+        letter-spacing: 0.3px;
+        color: rgb(9, 10, 10);
+        border-radius: 10px;
+        border-spacing : 5px;
+        outline: none;   
+      }
+       
+      #q {
+        height: 40px;
+        width: 150px;
+        border: 2px solid rgb(136, 156, 236);
+        background-image:linear-gradient(to bottom, rgba(222, 224, 226, 0), rgb(83, 114, 119));
+        font-size: 14px;
+        margin-right:60%; 
+        letter-spacing: 0.3px;
+        color: rgb(9, 10, 10);
+        border-radius: 10px;
+        border-spacing : 5px;
+        outline: none;   
+      }
+   
+   
+  div.a{
+  
+    text-align: center;
+  }
+  footer{
+    text-align: center;
+  }
+  @media only screen and (min-width: 1000px){
+    .container{
+      width: 100%;
+    }
+    
+    .img-size {
+      float: center ;
+      max-width:20%;
+      height:60%;
+  }
+    #top-btn{
+      height: 50px;
+      width: 400px;
+      font-size: 2vw;
+      margin: 0 px;
+    }
+  
+    #list-btn{ 
+      font-size: 2vw;
+      height:50px; 
+      width:300px;
+    }
+    #newstd-btn{
+      font-size: 2vw;
+      height:50px; 
+      width:400px;
+      display: block;
+      position: absolute;
+      top : 120px;
+      left: 300px;
+    }
+  
+    .search-box{
+      top: 10%;
+      right:45% ;
+      height: 17px;
+    }
+  
+    th{
+      height: 100px;
+      width: 300px;
+    }
+    
+    .image{
+      height: 200px;
+     width: 200px;
+    }
+  }
