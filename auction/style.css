@@ -1,0 +1,408 @@
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+}
+#active{
+    color: #FF6332;
+}
+.lbtn{
+    margin: 20px;
+    width: 83px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 99, 50);
+}
+.card{
+   box-shadow: 3px 0px 16px #66339936;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 #FF6332;
+}
+
+.line{
+    border-top: 2px solid #FF6332; 
+}
+.card-line{
+    border-top: 2px solid #B40909; 
+}
+.text {
+    float: right;
+    margin-top: -50px;
+    font-size: 20px;
+}
+.card-img-top {
+   max-width: 100%; 
+}
+.icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.col-2{
+    color: #FF6332;
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 7px;
+}
+
+.btn-lg{
+    border-radius: 10px;
+    font-size: initial;
+    margin: 10px;
+   
+}
+.fcard{
+    margin-bottom: 12px;
+    margin-top: 2px;
+}
+.helo{
+    color: #B40909;
+    font-size: 15px;
+}
+.hi{
+    color: #4CB748;
+    font-size: 13px;
+}
+.lastfooter{
+    background: #806a6314;
+   
+}
+footer{
+    background-color: #100303;
+}
+
+
+col ,ul {
+    list-style: none;
+    padding-left: 26px;
+}
+
+ul{
+    list-style: url(icons/Exclusion\ 3.png);
+}
+
+.small-list {
+    font-size: 85%;
+ }
+.img-responsive{
+    max-width: 100%;
+}
+.copy{
+    background-color: #3e3a3a;
+}
+.fline {
+    background-image: linear-gradient(to right,#ad2f0a, #331715 );
+    height: 1px;
+    width: 100px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+.footer-section{
+    color: #F2F2F2;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    margin-bottom: auto;
+    font-size: medium;
+}
+.footer-icon{
+    color:#B0BEBC ;
+  margin-left: 20px;
+letter-spacing: 3px;
+}
+.copy2 {
+    color: #B0BEBC;
+    margin: 5px 5px;
+}
+.far:hover{
+    font-size: 25px;
+}
+.fas:hover{
+    text-shadow: 2px 2px #B0BEBC;
+}
+h6{
+    font-size: 0.8rem;
+    margin-top: 6px;
+}
+.form-inline{
+   
+    border-spacing: 10px;
+}
+.col{
+    text-align: left;
+}
+
+.page-item.active .page-link{
+    background-color: #FF6332;
+}
+.page-link{
+    color: black;
+}
+
+.text-rigt {
+    position: absolute;
+    margin-top: -19px;
+    margin-left: 714px;
+    color: #B0BEBC;
+}
+@media screen and (max-width:480px) {
+    .copy2 {
+        margin: 11px 34px;
+        height: 33px;
+    }
+    .text-rigt {
+        position: absolute;
+        margin-top: -23px;
+        margin-left: 119px;
+    }   
+}
+@media screen and (max-width:320px) {
+    .copy2 {
+        font-size: 10px;
+        text-align: center;
+    }
+    .text-rigt {
+        text-align: center;
+        font-size: 10px;
+        margin-top: -18px;
+        margin-left: 62px;
+    }  
+}
+@media screen and (max-width:720px) {
+    .copy2 {
+        font-size: 10px;
+        text-align: center;
+        height: 26px;
+    }
+    .text-rigt {
+        text-align: center;
+        font-size: 10px;
+        margin-top: -18px;
+        margin-left: 147px;
+    }  
+}
+@media screen and (max-width:1199px) {
+    .helo {
+        font-size: 11px;
+    }  
+    .hi {
+        font-size: 9px;
+    }
+    .btn-lg {
+        margin-left: -3px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .text-rigt {
+        text-align: center;
+        font-size: 13px;
+        margin-top: -21px;
+        margin-left: 631px;
+    }
+}
+@media screen and (max-width:991px) {
+    .helo {
+        font-size: 5px;
+    }
+    .hi {
+        font-size: 6px;
+    }
+    .btn-lg {
+        margin-left: 1px;
+        width: 101px;
+        font-size: 8px;
+        margin-top: 7px;
+    }
+    .card-line {
+        width: 81px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .copy2 {
+        font-size: 8px;
+    }
+    .text-rigt {
+        font-size: 8px;
+        margin-top: -15px;
+        margin-left: 534px;
+    }
+}
+@media screen and (max-width:767px) {
+    .helo {
+        font-size: 10px;
+    }
+    .hi {
+        font-size: 7px;
+    }
+    .btn-lg {
+        margin-left: -12px;
+        width: 82px;
+        font-size: 7px;
+        padding: 1px;
+        border-radius: 4px;
+    }
+    .card-line {
+        width: 81px;
+    }
+    .text {
+        font-size: 12px;
+        margin-top: -34px;
+    }
+     h5 {
+        font-size: 13px;
+    } 
+    
+    .card-line {
+        width: 58px;
+        margin-top: -4px;
+    }
+    .text {
+        font-size: 12px;
+    }
+    .worth {
+        font-size: 8px;
+    }
+    .copy2 {
+        font-size: 7px;
+        margin: 4px 4px;
+    }
+    .text-rigt {
+        font-size: 7px;
+        margin-top: -14px;
+        margin-left: 382px;
+    }
+    
+}
+@media screen and (max-width:720px) {
+    .text-rigt {
+        font-size: 7px;
+        margin-top: -18px;
+        margin-left: 182px;
+    }
+}
+@media screen and (max-width:554px) {
+    .text-rigt {
+        margin-left: 202px;
+    }
+}
+@media screen and (max-width:532px) {
+    .text-rigt {
+        margin-left: 194px;
+    }
+}
+
+@media screen and (max-width:575px) {
+   
+    .btn-lg {
+        margin-left: -12px;
+        width: 259px;
+        font-size: 16px;
+        padding: 4px;
+        border-radius: 4px;
+    }
+    h5 {
+        font-size: 25px;
+    }
+    .worth {
+      font-size: 17px;
+    }
+    .text {
+      font-size: 20px;
+      margin-top: -47px;
+    }
+    .hi {
+      font-size: 16px;
+    }
+    .helo {
+      font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:470px) {
+    .text-rigt {
+        margin-left: 163px;
+    }
+}
+@media screen and (max-width:430px) {
+        .text-rigt {
+            margin-left: 144px;
+    }
+}
+@media screen and (max-width:415px) {
+    .btn-lg {
+      width: 237px;
+    }
+    .text-rigt {
+        margin-left: 134px;
+    }
+  }
+  @media screen and (max-width:385px) {
+    .btn-lg {
+      width: 224px;
+    }
+    .hi {
+        font-size: 12px;
+    }
+    .helo {
+        font-size: 13px;
+    }
+  }
+  @media screen and (max-width:370px) {
+        .btn-lg {
+            width: 214px;
+        }
+  }
+  @media screen and (max-width:355px) {
+    .btn-lg {
+        width: 199px;
+    }
+    .hi {
+        font-size: 11px;
+    }
+    .helo {
+        font-size: 11px;
+    }
+    .text-rigt {
+        margin-left: 102px;
+    }
+}
+@media screen and (max-width:337px) {
+    .btn-lg {
+        width: 187px;
+    }
+    .hi {
+        font-size: 9px;
+    }
+    .helo {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:320px) {
+    .btn-lg {
+        width: 187px;
+    }
+    .hi {
+        font-size: 8px;
+    }
+    .helo {
+        font-size: 8px;
+    }
+    h5 {
+        font-size: 19px;
+    }
+    .worth {
+        font-size: 13px;
+    }
+    .btn-lg {
+        width: 178px;
+    }
+    .text-rigt {
+        margin-left: 88px;
+    }
+}
+

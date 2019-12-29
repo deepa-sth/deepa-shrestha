@@ -1,0 +1,998 @@
+body{
+    overflow-x: hidden;
+}
+.form-control {
+    width: 278px;
+    display: initial;
+}
+.existing{
+    color: #4D2418; 
+    text-align: center;"
+}
+.password{
+    color: #C78F7D;
+     margin-left: 200px;
+      margin-top: -10px;
+}
+
+.login {
+    background-color: 
+    #FF6332;
+    background-image: url(img/Rectangle\ 53.svg);
+    background-size: 482px 500px;
+    height: 486px;
+    background-repeat: no-repeat;
+    margin-left: 67px;
+    margin-right: -55px;
+}
+.log {
+    text-align: center;
+    margin-top: 52px;
+    color: #cd5028;
+}
+.was-validated {
+    margin-top: 23px;
+    text-align: center;
+    color: #EE3900;
+}
+p {
+    margin-bottom: 0.2rem !important;
+}
+.btn1 {
+    margin-top: 37px;
+    margin-left: 30px;
+
+    position: absolute;
+}
+
+.btn2 {
+    margin-top: 37px;
+    margin-left: 388px;
+    position: absolute;
+}
+.btn3 {
+    margin-top: 421px;
+    margin-left: 30px;
+    position: absolute;
+}
+.btn4 {
+    margin-top: 421px;
+    margin-left: 388px;
+    position: absolute;
+}
+.sign{
+    text-align: center;
+    color: #CC4C24; 
+}
+.form-check-input{
+    font-size: 10px;
+}
+.btn-success{
+    width: 137px;
+}
+.register{
+    background-color: #FF6332;
+    background-image:url(img/Path\ 17.png) ;
+    background-size: 471px 484px;
+    height: 486px;
+    background-repeat: no-repeat;
+    margin-left: 67px;
+margin-right: 25px;
+}
+.string {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 107px;
+    width: 35px;
+}
+#welcome {
+    position: absolute;
+    text-shadow: 2px 0px 71px #FF0000;
+    font-size: 36px;
+    font-family: 'Jomolhari', serif;
+    margin-left: 200px;
+    margin-top: -236px;
+}
+#here {
+    font-size: 16px;
+    margin-left: 275px;
+    margin-top: -141px;
+    color: #B45537;
+}
+#poly{
+    margin-left: 279px;
+    margin-top: -283px;
+}
+.signbtn {
+    margin-left: 242px;
+    margin-top: -313px;
+    width: 97px;
+}
+@media screen and (max-width:1024px) {
+    .register {
+        background-size: 456px 482px;
+        height: 484px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: -207px;
+    }
+    .signbtn {
+        margin-left: 199px;
+        margin-top: -302px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 221px;
+        margin-top: -140px;
+    }
+    #poly {
+        margin-left: 226px;
+        margin-top: -280px;
+    }
+    .login {
+        background-size: 465px 491px;
+        height: 484px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 30px;
+    
+        position: absolute;
+    }
+    
+    .btn2 {
+        margin-left: 370px;
+    }
+    .btn3 {
+        margin-top: 408px;
+    }
+    .btn4 {  
+          margin-top: 408px;
+        margin-left: 370px;
+    }
+   }
+
+ 
+   @media screen and (max-width:1199px) {
+    .register {
+        background-size: 397px 440px;
+        height: 439px;
+    }
+    .login {
+        background-size: 409px 443px;
+        height: 439px;
+    }
+    .form-control {
+        width: 210px;
+        display: initial;
+    }
+    .password {
+        margin-left: 162px;
+        margin-top: -15px;
+    }
+    .btn1 {
+        margin-left: 17px;
+    }
+    
+    .btn2 {
+        margin-left: 322px;
+    }
+    .btn3 {
+        margin-top: 364px;
+        margin-left: 17px;
+    }
+    .btn4 {
+        margin-top: 364px;
+        margin-left: 322px;
+    }
+    #welcome {
+        font-size: 31px;
+        margin-left: 147px;
+        margin-top: -164px;
+    }
+    .signbtn {
+        margin-left: 189px;
+        margin-top: -231px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 211px;
+        margin-top: -109px;
+    }
+    #poly {
+        margin-left: 216px;
+        margin-top: -215px;
+    }
+    p {
+        margin-bottom: -3px !important;
+    }
+   }
+   @media screen and (max-width:991px) {
+    .register {
+        background-size: 295px 332px;
+        height: 333px;
+    }
+    .string {
+        margin-top: 38px;
+        width: 29px;
+    }
+    #welcome {
+        margin-left: 95px;
+        margin-top: 54px;
+        font-size: 28px;
+    }
+    .signbtn {
+        margin-left: 120px;
+        margin-bottom: -236px;
+    }
+    #here {
+        font-size: 14px;
+        margin-left: 144px;
+        margin-top: -31px;
+    }
+    #poly {
+        margin-left: 153px;
+        margin-top: 151px;
+        width: 14px;
+    }
+    #boy {
+        width: 56%;
+        margin-top: 14px;
+        position: absolute;
+        height: 185px;
+        margin-left: -27px;
+    }
+    .login {
+        background-size: 310px 348px;
+        height: 333px;
+    }
+    .btn1 {
+        margin-top: 36px;
+        margin-left: 14px;
+        position: absolute;
+        width: 26px;
+    }
+    
+    .btn2 {
+        margin-left: 241px;
+        margin-top: 36px;
+        width: 26px;
+    }
+    .btn3 {
+        margin-top: 284px;
+        margin-left: 14px;
+        width: 26px;
+    }
+    .btn4 {  
+        margin-left: 241px;
+        margin-top: 284px;
+        width: 26px;
+    }
+    .log {
+        margin-top: 34px;
+        font-size: 20px;
+    }
+    .existing {
+        font-size: 13px;
+    }
+    .was-validated {
+        margin-top: 3px;
+    }
+    .form-control {
+        width: 121px;
+        height: 27px;
+        font-size: 12px;
+    }
+    .password{
+            margin-left: 105px;
+            margin-top: -20px;
+            font-size: 7px;
+    }
+    .btn-success {
+        width: 76px;
+        height: 35px;
+        margin-top: -9px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:767px) {
+    .register {
+        background-size: 535px 334px;
+        margin: 10px;
+    }
+    .string {
+        margin-top: 38px;
+        width: 29px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 56px;
+    
+        position: absolute;
+    }
+    
+    .btn2 {
+        margin-left: 420px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 431px;
+        margin-left: 56px;
+    }
+    .btn4 {  
+        margin-top: 431px;
+        margin-left: 420px;
+    }
+    #welcome {
+        margin-left: 177px;
+        margin-top: 23px;
+        font-size: 31px;
+    }
+    .signbtn {
+        margin-left: 215px;
+        margin-bottom: -147px;
+    }
+    #here {
+        font-size: 11px;
+        margin-left: 239px;
+        margin-top: 80px;
+    }
+    #poly {
+        margin-left: -46px;
+        margin-top: 121px;
+        width: 14px;
+        position: absolute;
+    }
+    #boy {
+        width: 56%;
+        margin-top: -59px;
+        position: absolute;
+        height: 251px;
+        margin-left: -42px;
+    }
+    .login {
+        background-size: 538px 502px;
+        height: 502px;
+        margin: 10px;
+    }
+ .log-section{
+    margin-top: 105px;
+ }
+    .log {
+        margin-top: 34px;
+        font-size: 20px;
+    }
+    .existing {
+        font-size: 13px;
+    }
+    .was-validated {
+        margin-top: 3px;
+    }
+    .form-control {
+        width: 121px;
+        height: 27px;
+        font-size: 12px;
+    }
+    .password{
+            margin-left: 105px;
+            margin-top: -20px;
+            font-size: 7px;
+    }
+    .btn-success {
+        width: 76px;
+        height: 35px;
+        margin-top: -9px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:720px) {
+    .register {
+        background-size: 515px 320px;
+    }
+    .login {
+        background-size: 540px 516px;
+        height: 508px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 53px;
+    
+        position: absolute;
+    }
+    
+    .btn2 {
+        margin-left: 425px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 452px;
+        margin-left: 53px;
+    }
+    .btn4 {  
+        margin-top: 452px;
+        margin-left: 425px;
+    }
+   }
+   @media screen and (max-width:575px) {
+    .register {
+        background-size: 546px 324px;
+    }
+    .login {
+        background-size: 561px 580px;
+        height: 574px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 25px;
+    }
+    
+    .btn2 {
+        margin-left: 474px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 511px;
+        margin-left: 25px;
+    }
+    .btn4 {  
+        margin-top: 511px;
+        margin-left: 474px;
+    }
+   }
+   @media screen and (max-width:560px) {
+    .register {
+        background-size: 546px 324px;
+    }
+    .login {
+        background-size: 561px 580px;
+        height: 574px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 25px;
+    }
+    
+    .btn2 {
+        margin-left: 474px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 511px;
+        margin-left: 25px;
+    }
+    .btn4 {  
+        margin-top: 511px;
+        margin-left: 474px;
+    }
+   }
+   @media screen and (max-width:554px) {
+    .register {
+        background-size: 546px 324px;
+    }
+    .login {
+        background-size: 561px 580px;
+        height: 574px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 25px;
+    }
+    
+    .btn2 {
+        margin-left: 474px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 511px;
+        margin-left: 25px;
+    }
+    .btn4 {  
+        margin-top: 511px;
+        margin-left: 474px;
+    }
+   }
+   @media screen and (max-width:540px) {
+    .register {
+        background-size: 522px 323px;
+    }
+    .login {
+        background-size: 526px 546px;
+        height: 544px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 25px;
+    }
+    
+    .btn2 {
+        margin-left: 441px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 476px;
+        margin-left: 25px;
+    }
+    .btn4 {  
+        margin-top: 476px;
+        margin-left: 441px;
+    }
+   }
+   @media screen and (max-width:530px) {
+    .register {
+        background-size: 514px 329px;
+    }
+    .login {
+        background-size: 526px 546px;
+        height: 544px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 25px;
+    }
+    
+    .btn2 {
+        margin-left: 441px;
+        margin-top: 37px;
+    }
+    .btn3 {
+        margin-top: 476px;
+        margin-left: 25px;
+    }
+    .btn4 {  
+        margin-top: 476px;
+        margin-left: 441px;
+    }
+   }
+   @media screen and (max-width:480px) {
+    .register {
+        background-size: 451px 331px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 465px 491px;
+        height: 484px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 30px;
+    
+        position: absolute;
+    }
+    
+    .btn2 {
+        margin-left: 370px;
+    }
+    .btn3 {
+        margin-top: 408px;
+    }
+    .btn4 {  
+          margin-top: 408px;
+        margin-left: 370px;
+    }
+   }
+   @media screen and (max-width:460px) {
+    .register {
+        background-size: 436px 331px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 458px 483px;
+        height: 484px;
+    }
+    .btn1 {
+        margin-top: 37px;
+        margin-left: 30px;
+    
+        position: absolute;
+    }
+    
+    .btn2 {
+        margin-left: 370px;
+    }
+    .btn3 {
+        margin-top: 408px;
+    }
+    .btn4 {  
+          margin-top: 408px;
+        margin-left: 370px;
+    }
+   }
+   @media screen and (max-width:445px) {
+    .register {
+        background-size: 425px 331px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 430px 477px;
+        height: 468px;
+    }
+    .btn1 {
+        margin-top: 47px;
+        margin-left: 18px;
+    }
+    
+    .btn2 {
+        margin-left: 355px;
+        margin-top: 47px;
+    }
+    .btn3 {
+        margin-top: 402px;
+        margin-left: 18px;
+    }
+    .btn4 {  
+        margin-top: 402px;
+          margin-left: 355px;
+    }
+   }
+   @media screen and (max-width:433px) {
+    .register {
+        background-size: 406px 332px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 430px 477px;
+        height: 468px;
+    }
+    .btn1 {
+        margin-top: 47px;
+        margin-left: 18px;
+    }
+    
+    .btn2 {
+        margin-left: 355px;
+        margin-top: 47px;
+    }
+    .btn3 {
+        margin-top: 402px;
+        margin-left: 18px;
+    }
+    .btn4 {  
+        margin-top: 402px;
+          margin-left: 355px;
+    }
+   }
+   @media screen and (max-width:418px) {
+    .register {
+        background-size: 394px 331px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 406px 433px;
+        height: 431px;
+    }
+    .btn1 {
+        margin-top: 36px;
+        margin-left: 18px;
+    }
+    
+    .btn2 {
+        margin-left: 333px;
+        margin-top: 36px;
+    }
+    .btn3 {
+        margin-top: 368px;
+        margin-left: 18px;
+    }
+    .btn4 {  
+        margin-top: 368px;
+        margin-left: 333px;
+    }
+   }
+   @media screen and (max-width:398px) {
+    .register {
+        background-size: 370px 329px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 385px 412px;
+        height: 410px;
+    }
+    .btn1 {
+        margin-top: 36px;
+        margin-left: 18px;
+    }
+    
+    .btn2 {
+        margin-left: 312px;
+        margin-top: 36px;
+    }
+    .btn3 {
+        margin-top: 349px;
+        margin-left: 18px;
+    }
+    .btn4 {  
+        margin-top: 349px;
+        margin-left: 312px;
+    }
+   }
+   @media screen and (max-width:379px) {
+    .register {
+        background-size: 351px 329px;
+    }
+    .log-section {
+        margin-top: 69px;
+    }
+    #welcome {
+        margin-left: 149px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 192px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 216px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 362px 405px;
+        height: 401px;
+    }
+    .btn1 {
+        margin-top: 42px;
+        margin-left: 18px;
+    }
+    .btn2 {
+        margin-left: 290px;
+        margin-top: 42px;
+    }
+    .btn3 {
+        margin-top: 335px;
+        margin-left: 18px;
+    }
+    .btn4 {  
+        margin-top: 335px;
+        margin-left: 290px;
+    }
+   }
+   @media screen and (max-width:355px) {
+    .register {
+        background-size: 327px 327px;
+    }
+    .log-section {
+        margin-top: 69px;
+    }
+    #welcome {
+        margin-left: 116px;
+        margin-top: 20px;
+    }
+    .signbtn {
+        margin-left: 155px;
+        margin-top: -1px;
+        width: 80px;
+    }
+    #here {
+        font-size: 16px;
+        margin-left: 183px;
+        margin-top: 86px;
+    }
+    #poly {
+        margin-left: -43px;
+        margin-top: 132px;
+    }
+    .login {
+        background-size: 332px 375px;
+        height: 375px;
+    }
+    .btn1 {
+        margin-top: 42px;
+        margin-left: 18px;
+    }
+    .btn2 {
+        margin-left: 259px;
+        margin-top: 42px;
+    }
+    .btn3 {
+        margin-top: 304px;
+        margin-left: 18px;
+    }
+    .btn4 {  
+        margin-top: 304px;
+        margin-left: 259px;
+    }
+   }
+   @media screen and (max-width:320px) {
+    .register {
+        background-size: 298px 426px;
+        height: 423px;
+    }
+    .string {
+        margin-top: 89px;
+        width: 29px;
+    }
+    #welcome {
+        margin-left: 95px;
+        margin-top: 54px;
+        font-size: 28px;
+    }
+    .log-section {
+        margin-top: 38px;
+    }
+    .signbtn {
+        margin-left: 120px;
+        margin-bottom: -236px;
+    }
+    #here {
+        font-size: 14px;
+        margin-left: 144px;
+        margin-top: 139px;
+    }
+    #poly {
+        margin-left: -44px;
+        margin-top: 153px;
+        width: 14px;
+    }
+    #boy {
+        width: 64%;
+        margin-top: 35px;
+        position: absolute;
+        height: 185px;
+        margin-left: -27px;
+    }
+    .login {
+        background-size: 299px 332px;
+        height: 324px;
+    }
+    .btn1 {
+        display: none;
+    }
+    
+    .btn2 {
+        display: none;
+    }
+    .btn3 {
+        display: none;
+    }
+    .btn4 {  
+        display: none;
+    }
+    .log {
+        margin-top: 34px;
+        font-size: 20px;
+    }
+    .existing {
+        font-size: 13px;
+    }
+    .was-validated {
+        margin-top: 3px;
+    }
+    .form-control {
+        width: 121px;
+        height: 27px;
+        font-size: 12px;
+    }
+    .password{
+            margin-left: 105px;
+            margin-top: -20px;
+            font-size: 7px;
+    }
+    .btn-success {
+        width: 76px;
+        height: 35px;
+        margin-top: -9px;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 10px;
+    }
+}
